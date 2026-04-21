@@ -1,2 +1,5 @@
-# sf_data_science1
-SF homework
+# My data science projects
+From the [Skillfactory Data Science course](https://skillfactory.ru/data-scientist)
+
+## Проекты
+*[Проект 0. Игра: Угадай число](https://github.com/kiryashAnastasya/IDE/blob/main/project_0/game.py)
