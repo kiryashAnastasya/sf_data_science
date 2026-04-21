@@ -9,15 +9,20 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Число попыток
     """
-
+    low, high = 1,100 #Присваиваем нижней и верхне границе значения
     count = 0
 
-    while True:
+    while low <= high:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
-        if number == predict_number:
-            break # выход из цикла, если угадали
-    return(count)
+        predict_number = (low + high)//2 # предполагаемое число
+        if predict_number == number:
+            return count
+        elif predict_number < number:
+            low = predict_number + 1
+        else:
+            high = predict_number -1
+    return count
+                   
 
 print(f'Количество попыток: {random_predict()}')
 def score_game(random_predict) -> int:
