@@ -3,3 +3,5 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 
 ## Проекты
 *[Проект 0. Игра: Угадай число](https://github.com/kiryashAnastasya/IDE/blob/main/project_0/game.py)
+* [Проект 1. _______](___)
+* [Проект 2. _______](___)
